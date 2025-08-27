@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta="value" charset="UTF-8">
+    <title>CatPhotoApp</title>
+    <style> 
+      h1 {
+        color: pink;
+        text-size-adjust: 32px;
+        font-family: cursive;
+      }
+      a {
+        color: orange;
+      }
+      em {
+        color:deeppink;
+      }
+      strong{color:darkred}
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>catnip</li>
+          <li>laser pointers</li>
+          <li>springs!</li>
+        </ul>
+        <figure>
+          <img src="https://preview.redd.it/anyone-elses-cat-go-crazy-over-these-spring-toys-v0-q59o2wke8zqa1.jpg?width=640&crop=smart&auto=webp&s=410f790ead57ac98f67ad4ca9bcfa4ffecfbd9ce" alt="A cat playing with a toy spring." width="400px">
+          <figcaption>Cats <em>love</em> springs.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>big dogs</li>
+          <li>tail grabing</li>
+        </ol>
+        <figure>
+          <img src="https://catexplore.com/wp-content/uploads/2022/04/cat-black-white-hissing-mary-swift-Adobe-295410560-1024x788.jpg" alt="A cat hissing." width="300px">
+          <figcaption>Cats <strong>hate</strong> when people grab their tail.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Cited Sorces here- <a href="https://www.bing.com/images/search?view=detailV2&ccid=DMYFVFak&id=0BBBFF11CED170DBFB188EF2B5D64032A00D24E7&thid=OIP.DMYFVFak2ySd3mXpjbf_DgHaHS&mediaurl=https%3a%2f%2fpreview.redd.it%2fanyone-elses-cat-go-crazy-over-these-spring-toys-v0-q59o2wke8zqa1.jpg%3fwidth%3d640%26crop%3dsmart%26auto%3dwebp%26s%3d410f790ead57ac98f67ad4ca9bcfa4ffecfbd9ce&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.0cc6055456a4db249dde65e98db7ff0e%3frik%3d5yQNoDJA1rXyjg%26pid%3dImgRaw%26r%3d0&exph=630&expw=640&q=cat+playing+with+spring+toy&simid=607993080523007009&FORM=IRPRST&ck=C867B85FBE6A3C8823D9F0DF5A8DEB23&selectedIndex=1&itb=0" target="_blank">CatSpringphoto,</a>
+        <a href="https://catexplore.com/wp-content/uploads/2022/04/cat-black-white-hissing-mary-swift-Adobe-295410560-1024x788.jpg" target="_blank">Hissing Cat Photo,</a>
+        All information based on my cats! Lofe them! 
+      </p>
+    </footer>
+  </body>
+</html>
